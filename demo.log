@@ -1,0 +1,229 @@
+[2010-01-02 22:16:25] NioProcessor-1 DEBUG  [com.sundoctor.mina.example1.ssl.server.TLSServerHandler(line:15)] - [NIO Server]>> sessionCreated
+[2010-01-02 22:16:25] NioProcessor-1 DEBUG  [com.sundoctor.mina.example1.ssl.server.TLSServerHandler(line:19)] - [NIO Server]>> sessionOpened
+[2010-01-02 22:16:25] NioProcessor-1 DEBUG  [com.sundoctor.mina.example1.ssl.client.TLSClientHandler(line:15)] - [NIO Client]>> sessionCreated
+[2010-01-02 22:16:25] NioProcessor-1 DEBUG  [com.sundoctor.mina.example1.ssl.client.TLSClientHandler(line:19)] - [NIO Client]>> sessionOpened
+[2010-01-02 22:16:26] NioProcessor-1 DEBUG  [com.sundoctor.mina.example1.ssl.client.TLSClientHandler(line:44)] - [NIO Client]>> messageSent
+[2010-01-02 22:16:26] NioProcessor-1 DEBUG  [com.sundoctor.mina.example1.ssl.client.TLSClientHandler(line:45)] - [NIO Client messageSent]>> : 我是安全的吗?
+[2010-01-02 22:16:26] NioProcessor-1 DEBUG  [com.sundoctor.mina.example1.ssl.server.TLSServerHandler(line:39)] - [NIO Server]>> messageReceived
+[2010-01-02 22:16:26] NioProcessor-1 DEBUG  [com.sundoctor.mina.example1.ssl.server.TLSServerHandler(line:40)] - [NIO Server Received]>> : 我是安全的吗?
+[2010-01-02 22:16:26] NioProcessor-1 DEBUG  [com.sundoctor.mina.example1.ssl.server.TLSServerHandler(line:45)] - [NIO Server]>> messageSent
+[2010-01-02 22:16:26] NioProcessor-1 DEBUG  [com.sundoctor.mina.example1.ssl.server.TLSServerHandler(line:46)] - [NIO Server messageSent]>> : 安全链接已建立!
+[2010-01-02 22:16:26] NioProcessor-1 DEBUG  [com.sundoctor.mina.example1.ssl.client.TLSClientHandler(line:39)] - [NIO Client]>> messageReceived
+[2010-01-02 22:16:26] NioProcessor-1 DEBUG  [com.sundoctor.mina.example1.ssl.client.TLSClientHandler(line:40)] - [NIO Client Received]>>安全链接已建立!
+[2010-01-02 22:16:30] NioProcessor-1 DEBUG  [com.sundoctor.mina.example1.ssl.server.TLSServerHandler(line:23)] - [NIO Server]>> sessionClosed
+[2010-01-02 22:24:10] main DEBUG  [com.sundoctor.mina.example1.ssl.server.TLSServer(line:45)] - 服务器在 [50003] 等待连接...
+[2010-01-02 22:24:17] NioProcessor-1 DEBUG  [com.sundoctor.mina.example1.ssl.server.TLSServerHandler(line:15)] - [NIO Server]>> sessionCreated
+[2010-01-02 22:24:17] NioProcessor-1 DEBUG  [com.sundoctor.mina.example1.ssl.server.TLSServerHandler(line:19)] - [NIO Server]>> sessionOpened
+[2010-01-02 22:24:17] NioProcessor-1 DEBUG  [com.sundoctor.mina.example1.ssl.client.TLSClientHandler(line:15)] - [NIO Client]>> sessionCreated
+[2010-01-02 22:24:17] NioProcessor-1 DEBUG  [com.sundoctor.mina.example1.ssl.client.TLSClientHandler(line:19)] - [NIO Client]>> sessionOpened
+[2010-01-02 22:24:17] NioProcessor-1 DEBUG  [com.sundoctor.mina.example1.ssl.client.TLSClientHandler(line:44)] - [NIO Client]>> messageSent
+[2010-01-02 22:24:17] NioProcessor-1 DEBUG  [com.sundoctor.mina.example1.ssl.client.TLSClientHandler(line:45)] - [NIO Client messageSent]>> : 我是安全的吗?
+[2010-01-02 22:24:17] NioProcessor-1 DEBUG  [com.sundoctor.mina.example1.ssl.server.TLSServerHandler(line:39)] - [NIO Server]>> messageReceived
+[2010-01-02 22:24:17] NioProcessor-1 DEBUG  [com.sundoctor.mina.example1.ssl.server.TLSServerHandler(line:40)] - [NIO Server Received]>> : 我是安全的吗?
+[2010-01-02 22:24:17] NioProcessor-1 DEBUG  [com.sundoctor.mina.example1.ssl.server.TLSServerHandler(line:45)] - [NIO Server]>> messageSent
+[2010-01-02 22:24:17] NioProcessor-1 DEBUG  [com.sundoctor.mina.example1.ssl.server.TLSServerHandler(line:46)] - [NIO Server messageSent]>> : 安全链接已建立!
+[2010-01-02 22:24:17] NioProcessor-1 DEBUG  [com.sundoctor.mina.example1.ssl.client.TLSClientHandler(line:39)] - [NIO Client]>> messageReceived
+[2010-01-02 22:24:17] NioProcessor-1 DEBUG  [com.sundoctor.mina.example1.ssl.client.TLSClientHandler(line:40)] - [NIO Client Received]>>安全链接已建立!
+[2010-01-02 22:24:20] NioProcessor-1 DEBUG  [com.sundoctor.mina.example1.ssl.client.TLSClientHandler(line:23)] - [NIO Client]>> sessionClosed
+[2010-01-02 23:58:11] main DEBUG  [com.sundoctor.mina.example1.ssl.server.TLSServerSpring(line:16)] - Listening ...
+[2010-01-02 23:59:10] main DEBUG  [com.sundoctor.mina.example1.ssl.server.TLSServerSpring(line:16)] - Listening ...
+[2010-01-02 23:59:17] NioProcessor-1 DEBUG  [com.sundoctor.mina.example1.ssl.client.TLSClientHandler(line:14)] - [NIO Client]>> sessionCreated
+[2010-01-02 23:59:17] NioProcessor-1 DEBUG  [com.sundoctor.mina.example1.ssl.client.TLSClientHandler(line:18)] - [NIO Client]>> sessionOpened
+[2010-01-02 23:59:17] NioProcessor-1 DEBUG  [com.sundoctor.mina.example1.ssl.server.TLSServerHandler(line:14)] - [NIO Server]>> sessionCreated
+[2010-01-02 23:59:17] pool-1-thread-1 DEBUG  [com.sundoctor.mina.example1.ssl.server.TLSServerHandler(line:18)] - [NIO Server]>> sessionOpened
+[2010-01-02 23:59:17] NioProcessor-1 DEBUG  [com.sundoctor.mina.example1.ssl.client.TLSClientHandler(line:40)] - [NIO Client]>> messageSent
+[2010-01-02 23:59:17] NioProcessor-1 DEBUG  [com.sundoctor.mina.example1.ssl.client.TLSClientHandler(line:41)] - [NIO Client messageSent]>> : 我是安全的吗?
+[2010-01-02 23:59:17] pool-1-thread-1 DEBUG  [com.sundoctor.mina.example1.ssl.server.TLSServerHandler(line:35)] - [NIO Server]>> messageReceived
+[2010-01-02 23:59:17] pool-1-thread-1 DEBUG  [com.sundoctor.mina.example1.ssl.server.TLSServerHandler(line:36)] - [NIO Server Received]>> : 我是安全的吗?
+[2010-01-02 23:59:17] NioProcessor-1 DEBUG  [com.sundoctor.mina.example1.ssl.client.TLSClientHandler(line:35)] - [NIO Client]>> messageReceived
+[2010-01-02 23:59:17] NioProcessor-1 DEBUG  [com.sundoctor.mina.example1.ssl.client.TLSClientHandler(line:36)] - [NIO Client Received]>>安全链接已建立!
+[2010-01-02 23:59:17] pool-1-thread-1 DEBUG  [com.sundoctor.mina.example1.ssl.server.TLSServerHandler(line:41)] - [NIO Server]>> messageSent
+[2010-01-02 23:59:17] pool-1-thread-1 DEBUG  [com.sundoctor.mina.example1.ssl.server.TLSServerHandler(line:42)] - [NIO Server messageSent]>> : 安全链接已建立!
+[2010-01-02 23:59:19] NioProcessor-1 DEBUG  [com.sundoctor.mina.example1.ssl.client.TLSClientHandler(line:22)] - [NIO Client]>> sessionClosed
+[2010-01-03 00:04:09] main DEBUG  [com.sundoctor.mina.example1.ssl.server.TLSServerSpring(line:16)] - Listening ...
+[2010-01-03 00:04:41] NioProcessor-1 DEBUG  [com.sundoctor.mina.example1.ssl.client.TLSClientHandler(line:14)] - [NIO Client]>> sessionCreated
+[2010-01-03 00:04:41] pool-1-thread-1 DEBUG  [com.sundoctor.mina.example1.ssl.client.TLSClientHandler(line:18)] - [NIO Client]>> sessionOpened
+[2010-01-03 00:04:41] NioProcessor-1 DEBUG  [com.sundoctor.mina.example1.ssl.server.TLSServerHandler(line:14)] - [NIO Server]>> sessionCreated
+[2010-01-03 00:04:41] pool-1-thread-1 DEBUG  [com.sundoctor.mina.example1.ssl.server.TLSServerHandler(line:18)] - [NIO Server]>> sessionOpened
+[2010-01-03 00:05:42] pool-1-thread-2 DEBUG  [com.sundoctor.mina.example1.ssl.server.TLSServerHandler(line:22)] - [NIO Server]>> sessionClosed
+[2010-01-03 00:06:28] NioProcessor-2 DEBUG  [com.sundoctor.mina.example1.ssl.server.TLSServerHandler(line:14)] - [NIO Server]>> sessionCreated
+[2010-01-03 00:06:28] pool-1-thread-3 DEBUG  [com.sundoctor.mina.example1.ssl.server.TLSServerHandler(line:18)] - [NIO Server]>> sessionOpened
+[2010-01-03 00:06:28] NioProcessor-1 DEBUG  [com.sundoctor.mina.example1.ssl.client.TLSClientHandler(line:14)] - [NIO Client]>> sessionCreated
+[2010-01-03 00:06:28] pool-1-thread-1 DEBUG  [com.sundoctor.mina.example1.ssl.client.TLSClientHandler(line:18)] - [NIO Client]>> sessionOpened
+[2010-01-03 00:06:28] pool-1-thread-3 DEBUG  [com.sundoctor.mina.example1.ssl.server.TLSServerHandler(line:35)] - [NIO Server]>> messageReceived
+[2010-01-03 00:06:28] pool-1-thread-2 DEBUG  [com.sundoctor.mina.example1.ssl.client.TLSClientHandler(line:40)] - [NIO Client]>> messageSent
+[2010-01-03 00:06:28] pool-1-thread-2 DEBUG  [com.sundoctor.mina.example1.ssl.client.TLSClientHandler(line:41)] - [NIO Client messageSent]>> : 我是安全的吗?
+[2010-01-03 00:06:28] pool-1-thread-3 DEBUG  [com.sundoctor.mina.example1.ssl.server.TLSServerHandler(line:36)] - [NIO Server Received]>> : 我是安全的吗?
+[2010-01-03 00:06:28] pool-1-thread-3 DEBUG  [com.sundoctor.mina.example1.ssl.server.TLSServerHandler(line:41)] - [NIO Server]>> messageSent
+[2010-01-03 00:06:28] pool-1-thread-3 DEBUG  [com.sundoctor.mina.example1.ssl.server.TLSServerHandler(line:42)] - [NIO Server messageSent]>> : 安全链接已建立!
+[2010-01-03 00:06:28] pool-1-thread-3 DEBUG  [com.sundoctor.mina.example1.ssl.client.TLSClientHandler(line:35)] - [NIO Client]>> messageReceived
+[2010-01-03 00:06:28] pool-1-thread-3 DEBUG  [com.sundoctor.mina.example1.ssl.client.TLSClientHandler(line:36)] - [NIO Client Received]>>安全链接已建立!
+[2010-01-03 00:06:35] pool-1-thread-3 DEBUG  [com.sundoctor.mina.example1.ssl.client.TLSClientHandler(line:22)] - [NIO Client]>> sessionClosed
+[2010-01-04 23:39:46] main DEBUG  [com.sundoctor.mina.example1.ssl.server.TLSServer(line:45)] - 服务器在 [50003] 等待连接...
+[2010-01-04 23:39:56] NioProcessor-1 DEBUG  [com.sundoctor.mina.example1.ssl.server.TLSServerHandler(line:14)] - [NIO Server]>> sessionCreated
+[2010-01-04 23:39:56] NioProcessor-1 DEBUG  [com.sundoctor.mina.example1.ssl.server.TLSServerHandler(line:18)] - [NIO Server]>> sessionOpened
+[2010-01-04 23:39:56] NioProcessor-1 DEBUG  [com.sundoctor.mina.example1.ssl.client.TLSClientHandler(line:14)] - [NIO Client]>> sessionCreated
+[2010-01-04 23:39:56] NioProcessor-1 DEBUG  [com.sundoctor.mina.example1.ssl.client.TLSClientHandler(line:18)] - [NIO Client]>> sessionOpened
+[2010-01-04 23:39:57] NioProcessor-1 DEBUG  [com.sundoctor.mina.example1.ssl.client.TLSClientHandler(line:40)] - [NIO Client]>> messageSent
+[2010-01-04 23:39:57] NioProcessor-1 DEBUG  [com.sundoctor.mina.example1.ssl.client.TLSClientHandler(line:41)] - [NIO Client messageSent]>> : 我是安全的吗?
+[2010-01-04 23:39:57] NioProcessor-1 DEBUG  [com.sundoctor.mina.example1.ssl.server.TLSServerHandler(line:35)] - [NIO Server]>> messageReceived
+[2010-01-04 23:39:57] NioProcessor-1 DEBUG  [com.sundoctor.mina.example1.ssl.server.TLSServerHandler(line:36)] - [NIO Server Received]>> : 我是安全的吗?
+[2010-01-04 23:39:57] NioProcessor-1 DEBUG  [com.sundoctor.mina.example1.ssl.server.TLSServerHandler(line:41)] - [NIO Server]>> messageSent
+[2010-01-04 23:39:57] NioProcessor-1 DEBUG  [com.sundoctor.mina.example1.ssl.server.TLSServerHandler(line:42)] - [NIO Server messageSent]>> : 安全链接已建立!
+[2010-01-04 23:39:57] NioProcessor-1 DEBUG  [com.sundoctor.mina.example1.ssl.client.TLSClientHandler(line:35)] - [NIO Client]>> messageReceived
+[2010-01-04 23:39:57] NioProcessor-1 DEBUG  [com.sundoctor.mina.example1.ssl.client.TLSClientHandler(line:36)] - [NIO Client Received]>>安全链接已建立!
+[2010-01-04 23:40:00] NioProcessor-1 DEBUG  [com.sundoctor.mina.example1.ssl.client.TLSClientHandler(line:22)] - [NIO Client]>> sessionClosed
+[2010-01-25 21:47:53] main DEBUG  [com.sundoctor.mina.example1.ssl.server.TLSServer(line:45)] - 服务器在 [50003] 等待连接...
+[2010-01-25 21:48:01] NioProcessor-1 DEBUG  [com.sundoctor.mina.example1.ssl.server.TLSServerHandler(line:14)] - [NIO Server]>> sessionCreated
+[2010-01-25 21:48:01] NioProcessor-1 DEBUG  [com.sundoctor.mina.example1.ssl.server.TLSServerHandler(line:18)] - [NIO Server]>> sessionOpened
+[2010-01-25 21:48:01] NioProcessor-1 DEBUG  [com.sundoctor.mina.example1.ssl.client.TLSClientHandler(line:14)] - [NIO Client]>> sessionCreated
+[2010-01-25 21:48:01] NioProcessor-1 DEBUG  [com.sundoctor.mina.example1.ssl.client.TLSClientHandler(line:18)] - [NIO Client]>> sessionOpened
+[2010-01-25 21:48:01] NioProcessor-1 DEBUG  [com.sundoctor.mina.example1.ssl.client.TLSClientHandler(line:40)] - [NIO Client]>> messageSent
+[2010-01-25 21:48:01] NioProcessor-1 DEBUG  [com.sundoctor.mina.example1.ssl.client.TLSClientHandler(line:41)] - [NIO Client messageSent]>> : 我是安全的吗?
+[2010-01-25 21:48:01] NioProcessor-1 DEBUG  [com.sundoctor.mina.example1.ssl.server.TLSServerHandler(line:35)] - [NIO Server]>> messageReceived
+[2010-01-25 21:48:01] NioProcessor-1 DEBUG  [com.sundoctor.mina.example1.ssl.server.TLSServerHandler(line:36)] - [NIO Server Received]>> : 我是安全的吗?
+[2010-01-25 21:48:01] NioProcessor-1 DEBUG  [com.sundoctor.mina.example1.ssl.server.TLSServerHandler(line:41)] - [NIO Server]>> messageSent
+[2010-01-25 21:48:01] NioProcessor-1 DEBUG  [com.sundoctor.mina.example1.ssl.server.TLSServerHandler(line:42)] - [NIO Server messageSent]>> : 安全链接已建立!
+[2010-01-25 21:48:01] NioProcessor-1 DEBUG  [com.sundoctor.mina.example1.ssl.client.TLSClientHandler(line:35)] - [NIO Client]>> messageReceived
+[2010-01-25 21:48:01] NioProcessor-1 DEBUG  [com.sundoctor.mina.example1.ssl.client.TLSClientHandler(line:36)] - [NIO Client Received]>>安全链接已建立!
+[2010-01-25 21:48:13] NioProcessor-1 DEBUG  [com.sundoctor.mina.example1.ssl.client.TLSClientHandler(line:22)] - [NIO Client]>> sessionClosed
+[2010-01-25 21:48:23] main DEBUG  [com.sundoctor.mina.example1.ssl.server.TLSServerSpring(line:15)] - Listening ...
+[2010-01-25 21:48:36] NioProcessor-1 DEBUG  [com.sundoctor.mina.example1.ssl.server.TLSServerHandler(line:14)] - [NIO Server]>> sessionCreated
+[2010-01-25 21:48:36] pool-1-thread-1 DEBUG  [com.sundoctor.mina.example1.ssl.server.TLSServerHandler(line:18)] - [NIO Server]>> sessionOpened
+[2010-01-25 21:48:37] NioProcessor-1 DEBUG  [com.sundoctor.mina.example1.ssl.client.TLSClientHandler(line:14)] - [NIO Client]>> sessionCreated
+[2010-01-25 21:48:37] pool-1-thread-1 DEBUG  [com.sundoctor.mina.example1.ssl.client.TLSClientHandler(line:18)] - [NIO Client]>> sessionOpened
+[2010-01-25 21:48:37] pool-1-thread-1 DEBUG  [com.sundoctor.mina.example1.ssl.client.TLSClientHandler(line:40)] - [NIO Client]>> messageSent
+[2010-01-25 21:48:37] pool-1-thread-1 DEBUG  [com.sundoctor.mina.example1.ssl.client.TLSClientHandler(line:41)] - [NIO Client messageSent]>> : 我是安全的吗?
+[2010-01-25 21:48:37] pool-1-thread-1 DEBUG  [com.sundoctor.mina.example1.ssl.server.TLSServerHandler(line:35)] - [NIO Server]>> messageReceived
+[2010-01-25 21:48:37] pool-1-thread-1 DEBUG  [com.sundoctor.mina.example1.ssl.server.TLSServerHandler(line:36)] - [NIO Server Received]>> : 我是安全的吗?
+[2010-01-25 21:48:37] pool-1-thread-2 DEBUG  [com.sundoctor.mina.example1.ssl.server.TLSServerHandler(line:41)] - [NIO Server]>> messageSent
+[2010-01-25 21:48:37] pool-1-thread-2 DEBUG  [com.sundoctor.mina.example1.ssl.server.TLSServerHandler(line:42)] - [NIO Server messageSent]>> : 安全链接已建立!
+[2010-01-25 21:48:37] pool-1-thread-2 DEBUG  [com.sundoctor.mina.example1.ssl.client.TLSClientHandler(line:35)] - [NIO Client]>> messageReceived
+[2010-01-25 21:48:37] pool-1-thread-2 DEBUG  [com.sundoctor.mina.example1.ssl.client.TLSClientHandler(line:36)] - [NIO Client Received]>>安全链接已建立!
+[2010-01-25 21:48:43] pool-1-thread-2 DEBUG  [com.sundoctor.mina.example1.ssl.client.TLSClientHandler(line:22)] - [NIO Client]>> sessionClosed
+[2010-01-25 22:24:15] main DEBUG  [com.sundoctor.mina.example1.ssl.server.TLSServer(line:45)] - 服务器在 [50003] 等待连接...
+[2010-01-25 22:24:24] NioProcessor-1 DEBUG  [com.sundoctor.mina.example1.ssl.server.TLSServerHandler(line:14)] - [NIO Server]>> sessionCreated
+[2010-01-25 22:24:24] NioProcessor-1 DEBUG  [com.sundoctor.mina.example1.ssl.server.TLSServerHandler(line:18)] - [NIO Server]>> sessionOpened
+[2010-01-25 22:24:24] NioProcessor-1 DEBUG  [com.sundoctor.mina.example1.ssl.client.TLSClientHandler(line:14)] - [NIO Client]>> sessionCreated
+[2010-01-25 22:24:24] NioProcessor-1 DEBUG  [com.sundoctor.mina.example1.ssl.client.TLSClientHandler(line:18)] - [NIO Client]>> sessionOpened
+[2010-01-25 22:24:25] NioProcessor-1 DEBUG  [com.sundoctor.mina.example1.ssl.client.TLSClientHandler(line:40)] - [NIO Client]>> messageSent
+[2010-01-25 22:24:25] NioProcessor-1 DEBUG  [com.sundoctor.mina.example1.ssl.client.TLSClientHandler(line:41)] - [NIO Client messageSent]>> : 我是安全的吗?
+[2010-01-25 22:24:25] NioProcessor-1 DEBUG  [com.sundoctor.mina.example1.ssl.server.TLSServerHandler(line:35)] - [NIO Server]>> messageReceived
+[2010-01-25 22:24:25] NioProcessor-1 DEBUG  [com.sundoctor.mina.example1.ssl.server.TLSServerHandler(line:36)] - [NIO Server Received]>> : 我是安全的吗?
+[2010-01-25 22:24:25] NioProcessor-1 DEBUG  [com.sundoctor.mina.example1.ssl.server.TLSServerHandler(line:41)] - [NIO Server]>> messageSent
+[2010-01-25 22:24:25] NioProcessor-1 DEBUG  [com.sundoctor.mina.example1.ssl.server.TLSServerHandler(line:42)] - [NIO Server messageSent]>> : 安全链接已建立!
+[2010-01-25 22:24:25] NioProcessor-1 DEBUG  [com.sundoctor.mina.example1.ssl.client.TLSClientHandler(line:35)] - [NIO Client]>> messageReceived
+[2010-01-25 22:24:25] NioProcessor-1 DEBUG  [com.sundoctor.mina.example1.ssl.client.TLSClientHandler(line:36)] - [NIO Client Received]>>安全链接已建立!
+[2010-01-25 22:24:30] NioProcessor-1 DEBUG  [com.sundoctor.mina.example1.ssl.server.TLSServerHandler(line:22)] - [NIO Server]>> sessionClosed
+[2010-01-25 23:26:13] main DEBUG  [com.sundoctor.mina.example2.ssl.server.TLSServer(line:45)] - 服务器在 [50003] 等待连接...
+[2010-01-25 23:26:24] NioProcessor-1 DEBUG  [com.sundoctor.mina.example2.ssl.server.TLSServerHandler(line:14)] - [NIO Server]>> sessionCreated
+[2010-01-25 23:26:24] NioProcessor-1 DEBUG  [com.sundoctor.mina.example2.ssl.server.TLSServerHandler(line:18)] - [NIO Server]>> sessionOpened
+[2010-01-25 23:26:24] NioProcessor-1 DEBUG  [com.sundoctor.mina.example2.ssl.client.TLSClientHandler(line:14)] - [NIO Client]>> sessionCreated
+[2010-01-25 23:26:24] NioProcessor-1 DEBUG  [com.sundoctor.mina.example2.ssl.client.TLSClientHandler(line:18)] - [NIO Client]>> sessionOpened
+[2010-01-25 23:26:24] NioProcessor-1 DEBUG  [com.sundoctor.mina.example2.ssl.client.TLSClientHandler(line:40)] - [NIO Client]>> messageSent
+[2010-01-25 23:26:24] NioProcessor-1 DEBUG  [com.sundoctor.mina.example2.ssl.client.TLSClientHandler(line:41)] - [NIO Client messageSent]>> : 我是安全的吗?
+[2010-01-25 23:26:24] NioProcessor-1 DEBUG  [com.sundoctor.mina.example2.ssl.server.TLSServerHandler(line:35)] - [NIO Server]>> messageReceived
+[2010-01-25 23:26:24] NioProcessor-1 DEBUG  [com.sundoctor.mina.example2.ssl.server.TLSServerHandler(line:36)] - [NIO Server Received]>> : 我是安全的吗?
+[2010-01-25 23:26:24] NioProcessor-1 DEBUG  [com.sundoctor.mina.example2.ssl.server.TLSServerHandler(line:41)] - [NIO Server]>> messageSent
+[2010-01-25 23:26:24] NioProcessor-1 DEBUG  [com.sundoctor.mina.example2.ssl.server.TLSServerHandler(line:42)] - [NIO Server messageSent]>> : 安全链接已建立!
+[2010-01-25 23:26:24] NioProcessor-1 DEBUG  [com.sundoctor.mina.example2.ssl.client.TLSClientHandler(line:35)] - [NIO Client]>> messageReceived
+[2010-01-25 23:26:24] NioProcessor-1 DEBUG  [com.sundoctor.mina.example2.ssl.client.TLSClientHandler(line:36)] - [NIO Client Received]>>安全链接已建立!
+[2010-01-25 23:26:27] NioProcessor-1 DEBUG  [com.sundoctor.mina.example2.ssl.server.TLSServerHandler(line:22)] - [NIO Server]>> sessionClosed
+[2010-01-25 23:29:52] main DEBUG  [com.sundoctor.mina.example2.ssl.server.TLSServerSpring(line:15)] - Listening ...
+[2010-01-25 23:29:59] NioProcessor-1 DEBUG  [com.sundoctor.mina.example1.ssl.server.TLSServerHandler(line:14)] - [NIO Server]>> sessionCreated
+[2010-01-25 23:29:59] pool-1-thread-1 DEBUG  [com.sundoctor.mina.example1.ssl.server.TLSServerHandler(line:18)] - [NIO Server]>> sessionOpened
+[2010-01-25 23:30:00] NioProcessor-1 DEBUG  [com.sundoctor.mina.example1.ssl.client.TLSClientHandler(line:14)] - [NIO Client]>> sessionCreated
+[2010-01-25 23:30:00] pool-1-thread-1 DEBUG  [com.sundoctor.mina.example1.ssl.client.TLSClientHandler(line:18)] - [NIO Client]>> sessionOpened
+[2010-01-25 23:30:00] pool-1-thread-1 DEBUG  [com.sundoctor.mina.example1.ssl.client.TLSClientHandler(line:40)] - [NIO Client]>> messageSent
+[2010-01-25 23:30:00] pool-1-thread-1 DEBUG  [com.sundoctor.mina.example1.ssl.client.TLSClientHandler(line:41)] - [NIO Client messageSent]>> : 我是安全的吗?
+[2010-01-25 23:30:00] pool-1-thread-1 DEBUG  [com.sundoctor.mina.example1.ssl.server.TLSServerHandler(line:35)] - [NIO Server]>> messageReceived
+[2010-01-25 23:30:00] pool-1-thread-1 DEBUG  [com.sundoctor.mina.example1.ssl.server.TLSServerHandler(line:36)] - [NIO Server Received]>> : 我是安全的吗?
+[2010-01-25 23:30:00] pool-1-thread-2 DEBUG  [com.sundoctor.mina.example1.ssl.server.TLSServerHandler(line:41)] - [NIO Server]>> messageSent
+[2010-01-25 23:30:00] pool-1-thread-2 DEBUG  [com.sundoctor.mina.example1.ssl.server.TLSServerHandler(line:42)] - [NIO Server messageSent]>> : 安全链接已建立!
+[2010-01-25 23:30:00] pool-1-thread-1 DEBUG  [com.sundoctor.mina.example1.ssl.client.TLSClientHandler(line:35)] - [NIO Client]>> messageReceived
+[2010-01-25 23:30:00] pool-1-thread-1 DEBUG  [com.sundoctor.mina.example1.ssl.client.TLSClientHandler(line:36)] - [NIO Client Received]>>安全链接已建立!
+[2010-01-25 23:30:02] pool-1-thread-1 DEBUG  [com.sundoctor.mina.example1.ssl.client.TLSClientHandler(line:22)] - [NIO Client]>> sessionClosed
+[2010-01-30 20:34:45] main DEBUG  [com.sundoctor.mina.example2.ssl.server.TLSServer(line:45)] - 服务器在 [50003] 等待连接...
+[2010-01-30 20:34:53] NioProcessor-1 DEBUG  [com.sundoctor.mina.example2.ssl.server.TLSServerHandler(line:14)] - [NIO Server]>> sessionCreated
+[2010-01-30 20:34:53] NioProcessor-1 DEBUG  [com.sundoctor.mina.example2.ssl.server.TLSServerHandler(line:18)] - [NIO Server]>> sessionOpened
+[2010-01-30 20:34:53] NioProcessor-1 DEBUG  [com.sundoctor.mina.example2.ssl.client.TLSClientHandler(line:14)] - [NIO Client]>> sessionCreated
+[2010-01-30 20:34:53] NioProcessor-1 DEBUG  [com.sundoctor.mina.example2.ssl.client.TLSClientHandler(line:18)] - [NIO Client]>> sessionOpened
+[2010-01-30 20:34:53] NioProcessor-1 DEBUG  [com.sundoctor.mina.example2.ssl.client.TLSClientHandler(line:40)] - [NIO Client]>> messageSent
+[2010-01-30 20:34:53] NioProcessor-1 DEBUG  [com.sundoctor.mina.example2.ssl.client.TLSClientHandler(line:41)] - [NIO Client messageSent]>> : 我是安全的吗?
+[2010-01-30 20:34:53] NioProcessor-1 DEBUG  [com.sundoctor.mina.example2.ssl.server.TLSServerHandler(line:35)] - [NIO Server]>> messageReceived
+[2010-01-30 20:34:53] NioProcessor-1 DEBUG  [com.sundoctor.mina.example2.ssl.server.TLSServerHandler(line:36)] - [NIO Server Received]>> : 我是安全的吗?
+[2010-01-30 20:34:53] NioProcessor-1 DEBUG  [com.sundoctor.mina.example2.ssl.server.TLSServerHandler(line:41)] - [NIO Server]>> messageSent
+[2010-01-30 20:34:53] NioProcessor-1 DEBUG  [com.sundoctor.mina.example2.ssl.server.TLSServerHandler(line:42)] - [NIO Server messageSent]>> : 安全链接已建立!
+[2010-01-30 20:34:53] NioProcessor-1 DEBUG  [com.sundoctor.mina.example2.ssl.client.TLSClientHandler(line:35)] - [NIO Client]>> messageReceived
+[2010-01-30 20:34:53] NioProcessor-1 DEBUG  [com.sundoctor.mina.example2.ssl.client.TLSClientHandler(line:36)] - [NIO Client Received]>>安全链接已建立!
+[2010-01-30 20:34:57] NioProcessor-1 DEBUG  [com.sundoctor.mina.example2.ssl.server.TLSServerHandler(line:22)] - [NIO Server]>> sessionClosed
+[2010-01-30 20:36:30] main DEBUG  [com.sundoctor.mina.example2.ssl.server.TLSServerSpring(line:15)] - Listening ...
+[2010-01-30 20:36:38] NioProcessor-1 DEBUG  [com.sundoctor.mina.example1.ssl.server.TLSServerHandler(line:14)] - [NIO Server]>> sessionCreated
+[2010-01-30 20:36:38] pool-1-thread-1 DEBUG  [com.sundoctor.mina.example1.ssl.server.TLSServerHandler(line:18)] - [NIO Server]>> sessionOpened
+[2010-01-30 20:36:38] NioProcessor-1 DEBUG  [com.sundoctor.mina.example1.ssl.client.TLSClientHandler(line:14)] - [NIO Client]>> sessionCreated
+[2010-01-30 20:36:38] pool-1-thread-1 DEBUG  [com.sundoctor.mina.example1.ssl.client.TLSClientHandler(line:18)] - [NIO Client]>> sessionOpened
+[2010-01-30 20:36:39] pool-1-thread-1 DEBUG  [com.sundoctor.mina.example1.ssl.server.TLSServerHandler(line:35)] - [NIO Server]>> messageReceived
+[2010-01-30 20:36:39] pool-1-thread-1 DEBUG  [com.sundoctor.mina.example1.ssl.server.TLSServerHandler(line:36)] - [NIO Server Received]>> : 我是安全的吗?
+[2010-01-30 20:36:39] pool-1-thread-1 DEBUG  [com.sundoctor.mina.example1.ssl.client.TLSClientHandler(line:40)] - [NIO Client]>> messageSent
+[2010-01-30 20:36:39] pool-1-thread-1 DEBUG  [com.sundoctor.mina.example1.ssl.client.TLSClientHandler(line:41)] - [NIO Client messageSent]>> : 我是安全的吗?
+[2010-01-30 20:36:39] pool-1-thread-2 DEBUG  [com.sundoctor.mina.example1.ssl.server.TLSServerHandler(line:41)] - [NIO Server]>> messageSent
+[2010-01-30 20:36:39] pool-1-thread-2 DEBUG  [com.sundoctor.mina.example1.ssl.server.TLSServerHandler(line:42)] - [NIO Server messageSent]>> : 安全链接已建立!
+[2010-01-30 20:36:39] pool-1-thread-1 DEBUG  [com.sundoctor.mina.example1.ssl.client.TLSClientHandler(line:35)] - [NIO Client]>> messageReceived
+[2010-01-30 20:36:39] pool-1-thread-1 DEBUG  [com.sundoctor.mina.example1.ssl.client.TLSClientHandler(line:36)] - [NIO Client Received]>>安全链接已建立!
+[2010-01-30 20:36:41] pool-1-thread-1 DEBUG  [com.sundoctor.mina.example1.ssl.server.TLSServerHandler(line:22)] - [NIO Server]>> sessionClosed
+[2010-01-30 20:41:36] main DEBUG  [com.sundoctor.mina.example2.ssl.server.TLSServer(line:45)] - 服务器在 [50003] 等待连接...
+[2010-01-30 20:41:55] NioProcessor-1 DEBUG  [com.sundoctor.mina.example2.ssl.client.TLSClientHandler(line:14)] - [NIO Client]>> sessionCreated
+[2010-01-30 20:41:55] NioProcessor-1 DEBUG  [com.sundoctor.mina.example2.ssl.client.TLSClientHandler(line:18)] - [NIO Client]>> sessionOpened
+[2010-01-30 20:41:55] NioProcessor-1 DEBUG  [com.sundoctor.mina.example2.ssl.server.TLSServerHandler(line:14)] - [NIO Server]>> sessionCreated
+[2010-01-30 20:41:55] NioProcessor-1 DEBUG  [com.sundoctor.mina.example2.ssl.server.TLSServerHandler(line:18)] - [NIO Server]>> sessionOpened
+[2010-01-30 20:41:55] NioProcessor-1 DEBUG  [com.sundoctor.mina.example2.ssl.client.TLSClientHandler(line:40)] - [NIO Client]>> messageSent
+[2010-01-30 20:41:55] NioProcessor-1 DEBUG  [com.sundoctor.mina.example2.ssl.client.TLSClientHandler(line:41)] - [NIO Client messageSent]>> : 我是安全的吗?
+[2010-01-30 20:41:55] NioProcessor-1 DEBUG  [com.sundoctor.mina.example2.ssl.server.TLSServerHandler(line:35)] - [NIO Server]>> messageReceived
+[2010-01-30 20:41:55] NioProcessor-1 DEBUG  [com.sundoctor.mina.example2.ssl.server.TLSServerHandler(line:36)] - [NIO Server Received]>> : 我是安全的吗?
+[2010-01-30 20:41:55] NioProcessor-1 DEBUG  [com.sundoctor.mina.example2.ssl.server.TLSServerHandler(line:41)] - [NIO Server]>> messageSent
+[2010-01-30 20:41:55] NioProcessor-1 DEBUG  [com.sundoctor.mina.example2.ssl.server.TLSServerHandler(line:42)] - [NIO Server messageSent]>> : 安全链接已建立!
+[2010-01-30 20:41:55] NioProcessor-1 DEBUG  [com.sundoctor.mina.example2.ssl.client.TLSClientHandler(line:35)] - [NIO Client]>> messageReceived
+[2010-01-30 20:41:55] NioProcessor-1 DEBUG  [com.sundoctor.mina.example2.ssl.client.TLSClientHandler(line:36)] - [NIO Client Received]>>安全链接已建立!
+[2010-01-30 20:41:59] NioProcessor-1 DEBUG  [com.sundoctor.mina.example2.ssl.server.TLSServerHandler(line:22)] - [NIO Server]>> sessionClosed
+[2010-01-30 20:43:49] main DEBUG  [com.sundoctor.mina.example2.ssl.server.TLSServerSpring(line:15)] - Listening ...
+[2010-01-30 20:43:59] NioProcessor-1 DEBUG  [com.sundoctor.mina.example2.ssl.server.TLSServerHandler(line:14)] - [NIO Server]>> sessionCreated
+[2010-01-30 20:43:59] pool-1-thread-1 DEBUG  [com.sundoctor.mina.example2.ssl.server.TLSServerHandler(line:18)] - [NIO Server]>> sessionOpened
+[2010-01-30 20:44:00] NioProcessor-1 DEBUG  [com.sundoctor.mina.example2.ssl.client.TLSClientHandler(line:14)] - [NIO Client]>> sessionCreated
+[2010-01-30 20:44:00] pool-1-thread-1 DEBUG  [com.sundoctor.mina.example2.ssl.client.TLSClientHandler(line:18)] - [NIO Client]>> sessionOpened
+[2010-01-30 20:44:00] pool-1-thread-3 DEBUG  [com.sundoctor.mina.example2.ssl.client.TLSClientHandler(line:40)] - [NIO Client]>> messageSent
+[2010-01-30 20:44:00] pool-1-thread-3 DEBUG  [com.sundoctor.mina.example2.ssl.client.TLSClientHandler(line:41)] - [NIO Client messageSent]>> : 我是安全的吗?
+[2010-01-30 20:44:00] pool-1-thread-1 DEBUG  [com.sundoctor.mina.example2.ssl.server.TLSServerHandler(line:35)] - [NIO Server]>> messageReceived
+[2010-01-30 20:44:00] pool-1-thread-1 DEBUG  [com.sundoctor.mina.example2.ssl.server.TLSServerHandler(line:36)] - [NIO Server Received]>> : 我是安全的吗?
+[2010-01-30 20:44:00] pool-1-thread-3 DEBUG  [com.sundoctor.mina.example2.ssl.client.TLSClientHandler(line:35)] - [NIO Client]>> messageReceived
+[2010-01-30 20:44:00] pool-1-thread-3 DEBUG  [com.sundoctor.mina.example2.ssl.client.TLSClientHandler(line:36)] - [NIO Client Received]>>安全链接已建立!
+[2010-01-30 20:44:00] pool-1-thread-2 DEBUG  [com.sundoctor.mina.example2.ssl.server.TLSServerHandler(line:41)] - [NIO Server]>> messageSent
+[2010-01-30 20:44:00] pool-1-thread-2 DEBUG  [com.sundoctor.mina.example2.ssl.server.TLSServerHandler(line:42)] - [NIO Server messageSent]>> : 安全链接已建立!
+[2010-01-30 20:44:04] pool-1-thread-3 DEBUG  [com.sundoctor.mina.example2.ssl.client.TLSClientHandler(line:22)] - [NIO Client]>> sessionClosed
+[2010-01-30 20:47:20] main DEBUG  [com.sundoctor.mina.example3.ssl.server.TLSServer(line:45)] - 服务器在 [50003] 等待连接...
+[2010-01-30 20:47:41] NioProcessor-1 DEBUG  [com.sundoctor.mina.example3.ssl.client.TLSClientHandler(line:14)] - [NIO Client]>> sessionCreated
+[2010-01-30 20:47:41] NioProcessor-1 DEBUG  [com.sundoctor.mina.example3.ssl.client.TLSClientHandler(line:18)] - [NIO Client]>> sessionOpened
+[2010-01-30 20:47:42] NioProcessor-1 DEBUG  [com.sundoctor.mina.example3.ssl.server.TLSServerHandler(line:14)] - [NIO Server]>> sessionCreated
+[2010-01-30 20:47:42] NioProcessor-1 DEBUG  [com.sundoctor.mina.example3.ssl.server.TLSServerHandler(line:18)] - [NIO Server]>> sessionOpened
+[2010-01-30 20:47:42] NioProcessor-1 DEBUG  [com.sundoctor.mina.example3.ssl.client.TLSClientHandler(line:40)] - [NIO Client]>> messageSent
+[2010-01-30 20:47:42] NioProcessor-1 DEBUG  [com.sundoctor.mina.example3.ssl.client.TLSClientHandler(line:41)] - [NIO Client messageSent]>> : 我是安全的吗?
+[2010-01-30 20:47:42] NioProcessor-1 DEBUG  [com.sundoctor.mina.example3.ssl.server.TLSServerHandler(line:35)] - [NIO Server]>> messageReceived
+[2010-01-30 20:47:42] NioProcessor-1 DEBUG  [com.sundoctor.mina.example3.ssl.server.TLSServerHandler(line:36)] - [NIO Server Received]>> : 我是安全的吗?
+[2010-01-30 20:47:42] NioProcessor-1 DEBUG  [com.sundoctor.mina.example3.ssl.server.TLSServerHandler(line:41)] - [NIO Server]>> messageSent
+[2010-01-30 20:47:42] NioProcessor-1 DEBUG  [com.sundoctor.mina.example3.ssl.server.TLSServerHandler(line:42)] - [NIO Server messageSent]>> : 安全链接已建立!
+[2010-01-30 20:47:42] NioProcessor-1 DEBUG  [com.sundoctor.mina.example3.ssl.client.TLSClientHandler(line:35)] - [NIO Client]>> messageReceived
+[2010-01-30 20:47:42] NioProcessor-1 DEBUG  [com.sundoctor.mina.example3.ssl.client.TLSClientHandler(line:36)] - [NIO Client Received]>>安全链接已建立!
+[2010-01-30 20:48:45] NioProcessor-1 DEBUG  [com.sundoctor.mina.example3.ssl.server.TLSServerHandler(line:22)] - [NIO Server]>> sessionClosed
+[2010-01-30 20:48:57] main DEBUG  [com.sundoctor.mina.example3.ssl.server.TLSServerSpring(line:15)] - Listening ...
+[2010-01-30 20:49:05] NioProcessor-1 DEBUG  [com.sundoctor.mina.example3.ssl.server.TLSServerHandler(line:14)] - [NIO Server]>> sessionCreated
+[2010-01-30 20:49:05] pool-1-thread-1 DEBUG  [com.sundoctor.mina.example3.ssl.server.TLSServerHandler(line:18)] - [NIO Server]>> sessionOpened
+[2010-01-30 20:49:06] NioProcessor-1 DEBUG  [com.sundoctor.mina.example3.ssl.client.TLSClientHandler(line:14)] - [NIO Client]>> sessionCreated
+[2010-01-30 20:49:06] pool-1-thread-1 DEBUG  [com.sundoctor.mina.example3.ssl.client.TLSClientHandler(line:18)] - [NIO Client]>> sessionOpened
+[2010-01-30 20:49:06] pool-1-thread-1 DEBUG  [com.sundoctor.mina.example3.ssl.client.TLSClientHandler(line:40)] - [NIO Client]>> messageSent
+[2010-01-30 20:49:06] pool-1-thread-1 DEBUG  [com.sundoctor.mina.example3.ssl.client.TLSClientHandler(line:41)] - [NIO Client messageSent]>> : 我是安全的吗?
+[2010-01-30 20:49:06] pool-1-thread-1 DEBUG  [com.sundoctor.mina.example3.ssl.server.TLSServerHandler(line:35)] - [NIO Server]>> messageReceived
+[2010-01-30 20:49:06] pool-1-thread-1 DEBUG  [com.sundoctor.mina.example3.ssl.server.TLSServerHandler(line:36)] - [NIO Server Received]>> : 我是安全的吗?
+[2010-01-30 20:49:06] pool-1-thread-1 DEBUG  [com.sundoctor.mina.example3.ssl.server.TLSServerHandler(line:41)] - [NIO Server]>> messageSent
+[2010-01-30 20:49:06] pool-1-thread-1 DEBUG  [com.sundoctor.mina.example3.ssl.server.TLSServerHandler(line:42)] - [NIO Server messageSent]>> : 安全链接已建立!
+[2010-01-30 20:49:06] pool-1-thread-3 DEBUG  [com.sundoctor.mina.example3.ssl.client.TLSClientHandler(line:35)] - [NIO Client]>> messageReceived
+[2010-01-30 20:49:06] pool-1-thread-3 DEBUG  [com.sundoctor.mina.example3.ssl.client.TLSClientHandler(line:36)] - [NIO Client Received]>>安全链接已建立!
+[2010-01-30 20:49:17] pool-1-thread-3 DEBUG  [com.sundoctor.mina.example3.ssl.client.TLSClientHandler(line:22)] - [NIO Client]>> sessionClosed

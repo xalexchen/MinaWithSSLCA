@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="src" path="src"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
+	<classpathentry kind="con" path="org.maven.ide.eclipse.MAVEN2_CLASSPATH_CONTAINER"/>
+	<classpathentry kind="lib" path="E:/Java_Workspace/Mina/MinaLib/dist/mina-core-2.0.7.jar"/>
+	<classpathentry kind="lib" path="E:/Java_Workspace/Mina/MinaLib/dist/mina-filter-compression-2.0.7.jar"/>
+	<classpathentry kind="lib" path="E:/Java_Workspace/Mina/MinaLib/dist/mina-integration-beans-2.0.7.jar"/>
+	<classpathentry kind="lib" path="E:/Java_Workspace/Mina/MinaLib/dist/mina-integration-jmx-2.0.7.jar"/>
+	<classpathentry kind="lib" path="E:/Java_Workspace/Mina/MinaLib/dist/mina-integration-ognl-2.0.7.jar"/>
+	<classpathentry kind="lib" path="E:/Java_Workspace/Mina/MinaLib/dist/mina-integration-xbean-2.0.7.jar"/>
+	<classpathentry kind="lib" path="E:/Java_Workspace/Mina/MinaLib/dist/mina-statemachine-2.0.7.jar"/>
+	<classpathentry kind="lib" path="E:/Java_Workspace/Mina/MinaLib/dist/mina-transport-apr-2.0.7.jar"/>
+	<classpathentry kind="lib" path="E:/Java_Workspace/Mina/MinaLib/slf4j-api-1.7.2.jar"/>
+	<classpathentry kind="lib" path="E:/Java_Workspace/Mina/MinaLib/slf4j-simple-1.7.2.jar"/>
+	<classpathentry kind="output" path="target/classes"/>
+</classpath>

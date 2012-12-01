@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE beans PUBLIC "-//SPRING//DTD BEAN//EN" "http://www.springframework.org/dtd/spring-beans.dtd">
+<beans>
+
+  <bean class="org.springframework.beans.factory.config.CustomEditorConfigurer">
+    <property name="customEditors">
+      <map>
+        <entry key="java.net.SocketAddress">
+          <bean class="org.apache.mina.integration.beans.InetSocketAddressEditor" />
+        </entry>
+      </map>
+    </property>
+  </bean>
+
+  <!-- The IoHandler implementation -->
+  <bean id="serverHandler" class="com.sundoctor.mina.example3.ssl.server.TLSServerHandler" />
+
+  <!-- The SSL configuration -->
+  <bean id="keystoreFactory" class="org.apache.mina.filter.ssl.KeyStoreFactory">
+    <property name="password" value="123456"/>
+    <property name="dataUrl" value="classpath:com/sundoctor/mina/example3/ssl/server.jks"/>
+  </bean>
+  <bean id="keyStore" factory-bean="keystoreFactory" factory-method="newInstance"/> 
+
+  <bean id="truststoreFactory" class="org.apache.mina.filter.ssl.KeyStoreFactory">
+    <property name="password" value="123456"/>
+    <property name="dataUrl" value="classpath:com/sundoctor/mina/example3/ssl/server.jks"/>
+  </bean>
+  <bean id="trustStore" factory-bean="truststoreFactory" factory-method="newInstance"/>  
+  
+  <!-- SSLContext to be used -->
+  <bean id="sslContextFactory"  class="org.apache.mina.filter.ssl.SslContextFactory">
+    <property name="protocol" value="TLS"/>    
+    <property name="keyManagerFactoryAlgorithm" value="SunX509"/>
+    <property name="keyManagerFactoryKeyStore"><ref local="keyStore"/></property>
+    <property name="keyManagerFactoryKeyStorePassword" value="123456"/> 
+  
+    <property name="trustManagerFactoryAlgorithm" value="SunX509"/>
+    <property name="trustManagerFactoryKeyStore"><ref local="trustStore"/></property>    
+  </bean>
+  <bean id="sslContext" factory-bean="sslContextFactory" factory-method="newInstance"/>
+
+  <!-- the IoFilters -->
+
+  <bean id="executorFilter" class="org.apache.mina.filter.executor.ExecutorFilter"/>
+
+  <bean id="mdcInjectionFilter" class="org.apache.mina.filter.logging.MdcInjectionFilter">
+      <constructor-arg value="remoteAddress"/>
+  </bean>
+
+  <bean id="codecFilter" class="org.apache.mina.filter.codec.ProtocolCodecFilter">
+    <constructor-arg>
+      <bean class="org.apache.mina.filter.codec.textline.TextLineCodecFactory" />
+    </constructor-arg>
+  </bean>
+
+  <bean id="loggingFilter" class="org.apache.mina.filter.logging.LoggingFilter" />
+
+  <bean id="sslFilter" class="org.apache.mina.filter.ssl.SslFilter">
+    <constructor-arg ref="sslContext"/>
+    <property name="needClientAuth" value="true"/>
+  </bean>
+
+
+  <!-- The SSL filter chain. -->
+  <bean id="sslFilterChainBuilder" class="org.apache.mina.core.filterchain.DefaultIoFilterChainBuilder">
+    <property name="filters">
+      <map>
+        <entry key="executor" value-ref="executorFilter"/>
+        <entry key="mdcInjectionFilter" value-ref="mdcInjectionFilter"/>
+        <entry key="sslFilter" value-ref="sslFilter"/>
+        <entry key="codecFilter" value-ref="codecFilter"/>
+        <entry key="loggingFilter" value-ref="loggingFilter"/>
+      </map>
+    </property>
+  </bean>
+  
+  <!-- The SSL enabled IoAcceptor which binds to port 1235 -->
+  <bean id="ioAcceptorWithSSL" class="org.apache.mina.transport.socket.nio.NioSocketAcceptor" init-method="bind" destroy-method="unbind">
+    <property name="defaultLocalAddress" value=":50003" />
+    <property name="handler" ref="serverHandler" />
+    <property name="reuseAddress" value="true" />
+    <property name="filterChainBuilder" ref="sslFilterChainBuilder" />
+  </bean>
+</beans>
